@@ -5,7 +5,7 @@
 ## Estimates & System Usecases :
 1. How many requests wil be made : 1 Billion requests per day
 
-2. How many suggestions are to be provided for each query : 10 suggestions
+2. How many suggestions are to be provided for each query : At max 10 suggestions
 
 3. What should be the criteria to rank suggestions : Rank based on how many times (frequency) the given word is searched by users 
 
