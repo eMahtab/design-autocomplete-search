@@ -3,7 +3,7 @@
 
 
 ## Estimates & System Usecases :
-1. How many requests wil be made : 1 Billion requests per day
+1. How many users will be using the system(search service) : 1 Billion users
 
 2. How many suggestions are to be provided for each query : At max 10 suggestions
 
