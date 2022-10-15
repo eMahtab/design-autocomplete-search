@@ -1,6 +1,6 @@
 # Design AutoComplete Search (Search Suggestion Service)
 
-
+!["Google Search Prediction"](istanbul.PNG?raw=true)
 
 ## Estimates & System Usecases :
 1. How many users will be using the system(search service) : 1 Billion users
