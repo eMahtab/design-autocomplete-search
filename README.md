@@ -46,6 +46,8 @@ Number of requests made per second =  (25 Billion) / 24 * 3600 = 289,352 = Aroun
 
 # High level design :
 
+!["High Level Design"](high-level-design.jpg?raw=true)
+
 According to our requirements, our autocomplete must be realtime. i.e. new search queries must be added to our database. Hence not only we have to design a system to give suggestions, but we also have to incorporate popular search queries to our database such that users can also get suggestions based on recent as well as popular searches.
 
 Hence our autocomplete consists of two parts:
