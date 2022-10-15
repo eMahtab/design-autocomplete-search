@@ -44,5 +44,17 @@ For 1 billions users number of requests made in one day = 1 * 25 = 25 Billion re
 
 Number of requests made per second =  (25 Billion) / 24 * 3600 = 289,352 = Around 300K requests per sec.
 
+# High level design :
+
+According to our requirements, our autocomplete must be realtime. i.e. new search queries must be added to our database. Hence not only we have to design a system to give suggestions, but we also have to incorporate popular search queries to our database such that users can also get suggestions based on recent as well as popular searches.
+
+Hence our autocomplete consists of two parts:
+
+Giving Suggestions
+Adding new trending queries to the database
+When a user starts writing in the search box, the get_suggestions() query hits our application servers on every character the user enters. It obtains the top 7 suggestions from our DB and then serves it to the user. Let's keep a service called Suggestions service which is responsible to obtain the top 7 suggestions from the database.
+
+Along with this, if the query is popular, let's say the query has been searched above a certain threshold number, then it has to be added to the DB. Let's keep a service called Trending Queries service which is responsible to add the new trending queries to our database.
+
 
 
