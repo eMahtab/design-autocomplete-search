@@ -22,3 +22,10 @@
 
 5. The search suggestions made by the system  must be relevant to whatever prefix the user has entered.
 
+## System APIs
+**getSearchSuggestions(prefix):**
+prefix: Whatever the user has typed until the moment the search query is sent.
+
+**markQueryAsTrending(query):**
+query: a new unique query which has been searched above a certain threshold will be marked as trending query in the system
+
