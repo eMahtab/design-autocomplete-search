@@ -42,7 +42,7 @@ Total Number of requests made by one user in a day : 5 * 5 (each user makes 5 re
 So from one user the system recieves 25 (5 * 5) requests in a day.
 For 1 billions users number of requests made in one day = 1 * 25 = 25 Billion requests in a day
 
-Number of requests made per second =  (25 Billion) / 24 * 3600 = 289,352 = 2 lakh 90 thousand requests per sec.
+Number of requests made per second =  (25 Billion) / 24 * 3600 = 289,352 = Around 2 lakh 90 thousand requests per sec.
 
 
 
