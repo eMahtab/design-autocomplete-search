@@ -65,7 +65,7 @@ When a user starts writing in the search box, the get_suggestions() query hits o
 Along with this, if the query is popular, let's say the query has been searched above a certain threshold number, then it has to be added to the DB. Let's keep a service called Trending Queries service which is responsible to add the new trending queries to our database.
 
 
-# Precompute the suggestions for prefix : top 10 suggestions for each possible prefix
+# Trie : Precompute the suggestions for every prefix : top 10 suggestions for each possible prefix
 
 
 
