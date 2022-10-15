@@ -24,8 +24,10 @@
 
 ## System APIs
 **getSearchSuggestions(prefix):**
-prefix: Whatever the user has typed until the moment the search query is sent.
+
+Returns the search suggestions for the given prefix.
 
 **markQueryAsTrending(query):**
-query: a new unique query which has been searched above a certain threshold will be marked as trending query in the system
+
+Marks a search query as trending query in the system, if its searched above a certain threshold.
 
