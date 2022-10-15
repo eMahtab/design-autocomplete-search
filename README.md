@@ -69,3 +69,5 @@ Along with this, if the query is popular, let's say the query has been searched 
 
 
 
+# References :
+https://systemdesignprep.com/autocomplete
