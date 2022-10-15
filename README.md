@@ -50,9 +50,15 @@ According to our requirements, our autocomplete must be realtime. i.e. new searc
 
 Hence our autocomplete consists of two parts:
 
-Giving Suggestions
-Adding new trending queries to the database
+1. Giving Suggestions
+
+2. Adding new trending queries to the database
+
+**Suggestions Service : **
+
 When a user starts writing in the search box, the get_suggestions() query hits our application servers on every character the user enters. It obtains the top 7 suggestions from our DB and then serves it to the user. Let's keep a service called Suggestions service which is responsible to obtain the top 7 suggestions from the database.
+
+**TrendingQueries Service**
 
 Along with this, if the query is popular, let's say the query has been searched above a certain threshold number, then it has to be added to the DB. Let's keep a service called Trending Queries service which is responsible to add the new trending queries to our database.
 
